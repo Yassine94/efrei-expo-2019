@@ -1,5 +1,3 @@
 # rn-project
-
-[Team]
-  Yassine
-  Dylan
+# DE SOUSA Dylan
+# FATIHI Yassine
