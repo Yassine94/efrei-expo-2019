@@ -4,15 +4,17 @@ const typeDefs = `
   }
 
   type Query {
-    products: [Product!]!
+    porsches: [Porsche!]!
   }
 
-  type Product {
+  type Porsche {
     id: ID!
+    genericModel: GenericModel!
+  }
+
+  type GenericModel {
     title: String!
-    category: String!
-    price: Int!
-    imageURL: String
+    imageURL: String!
   }
 `;
 

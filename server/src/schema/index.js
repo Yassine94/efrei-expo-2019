@@ -1,11 +1,11 @@
 import { mergeSchemas } from 'graphql-tools';
 import userSchema from './user';
-import productSchema from './product';
+import porscheSchema from './porsche';
 
 const schema = mergeSchemas({
   schemas: [
     userSchema,
-    productSchema,
+    porscheSchema,
   ],
 });
 
