@@ -5,6 +5,7 @@ const typeDefs = `
 
   type Query {
     porsches: [Porsche!]!
+    genericModels: [GenericModel!]!
   }
 
   type Porsche {
@@ -13,7 +14,7 @@ const typeDefs = `
   }
 
   type GenericModel {
-    title: String!
+    model: String!
     imageURL: String!
   }
 `;
