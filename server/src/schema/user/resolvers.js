@@ -1,4 +1,5 @@
 import users from '../../data/users';
+import uuid from 'uuid/v1';
 
 const resolvers = {
   Query: {
@@ -7,6 +8,21 @@ const resolvers = {
     }
   },
   Mutation: {
+    createUser: (obj, args, ctx, info) => {
+      const id = uuid();
+      const { firstName, lastName, city } = args.data;
+
+      const newUser = {
+        id,
+        firstName,
+        lastName,
+        city,
+      };
+      users.push(newUser);
+      console.log(users);
+
+      return true;
+    },
     editUser: (obj, args, ctx, info) => {
       const { data } = args;
       const index = users.findIndex((user) => user.id === args.id);

@@ -9,6 +9,7 @@ const typeDefs = `
   }
 
   type Mutation {
+    createUser(data: UserInput): Boolean!
     editUser(id: ID!, data: UserInput!): User!
   }
 
