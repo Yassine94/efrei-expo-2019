@@ -1,19 +1,17 @@
 import React from 'react';
+import ApolloClient from 'apollo-boost';
+import { ApolloProvider } from '@apollo/react-hooks';
 import { StyleSheet, Text, View } from 'react-native';
+import RootNavigator from './src/navigator';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+const client = new ApolloClient({
+  uri: 'http://cd4d078d.ngrok.io',
 });
+
+const App = () => (
+  <ApolloProvider client={client}>
+    <RootNavigator />
+  </ApolloProvider>
+)
+
+export default App;
