@@ -10,7 +10,8 @@ const typeDefs = `
   }
 
   type Mutation {
-    createPorsche(data: CreatePorscheInput!): Boolean!
+    createPorsche(data: PorscheInput!): Boolean!
+    editPorsche(id: ID!, data: PorscheInput): Porsche!
   }
 
   type Porsche {
@@ -31,7 +32,7 @@ const typeDefs = `
     imageURL: String!
   }
 
-  input CreatePorscheInput {
+  input PorscheInput {
     genericModel: GenericModelInput!
     model: String!
     imageURL: String!
