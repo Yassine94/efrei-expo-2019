@@ -7639,6 +7639,7 @@ native-base-shoutem-theme@0.3.1:
 native-base@^2.13.7:
   version "2.13.7"
   resolved "https://registry.yarnpkg.com/native-base/-/native-base-2.13.7.tgz#d5d690949bba331057e2d9636829d6b8463b1174"
+  integrity sha512-eR8eYrYBd7KTQVGU8IO3Lxojx++P6XDVLLjTwEPwn7TAklvtC8J/J67TKPVkCBzZ+1+Yq3fBbUHEO5GdoxxbNw==
   dependencies:
     blueimp-md5 "^2.5.0"
     clamp "^1.0.1"
