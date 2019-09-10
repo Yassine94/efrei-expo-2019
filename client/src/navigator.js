@@ -16,6 +16,11 @@ const TabNavigator = createBottomTabNavigator({
   Home: HomeStack,
 }, {
   initialRouteName: 'Home',
+  tabBarOptions: {
+    style: {
+      backgroundColor: '#141518'
+    }
+  }
 });
 
 const AppContainer = createAppContainer(TabNavigator);
