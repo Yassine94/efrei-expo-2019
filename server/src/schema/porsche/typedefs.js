@@ -33,7 +33,7 @@ const typeDefs = `
   }
 
   input PorscheInput {
-    genericModel: GenericModelInput!
+    GenericModelId: String!
     model: String!
     imageURL: String!
   }
