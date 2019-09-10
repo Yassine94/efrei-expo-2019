@@ -6,7 +6,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import RootNavigator from './src/navigator';
 
 const client = new ApolloClient({
-  uri: 'http://cd4d078d.ngrok.io',
+  uri: 'http://8ffdc0c6.ngrok.io',
 });
 
 const App = () => (
