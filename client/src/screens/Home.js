@@ -51,15 +51,15 @@ const {loading, error, data} = useQuery(queries.GET_GENERIC_MODELS);
           <FlatList
             numColumns = { 2 }
             data = { data.genericModels }
-            renderItem = { ({ item }) => (
+            renderItem = { ({ item: { id, model, imageURL } }) => (
               <View style={ styles.tile }>
-                <ImageBackground source={{ uri: item.imageURL }} style={ styles.tileImage }>
+                <ImageBackground source={{ uri: imageURL }} style={ styles.tileImage }>
                   <TouchableOpacity
-                    onPress={()=>{console.log("ok")}}
+                    onPress={() => navigation.navigate('Porsches', { id, model })}
                     style={ styles.tileImage }
                     activeOpacity={0.60}>
                       <View style={ styles.tileFooter }>
-                        <Text style={ styles.tileText }> { item.model } </Text>
+                        <Text style={ styles.tileText }> { model } </Text>
                       </View>
                     </TouchableOpacity>
                   </ImageBackground>
@@ -72,7 +72,7 @@ const {loading, error, data} = useQuery(queries.GET_GENERIC_MODELS);
 }
 
 Screen.navigationOptions = {
-  title: 'PORSCHES',
+  title: 'Modèles',
   headerStyle: { backgroundColor: '#141518' },
   headerTitleStyle: { color: '#eb8cb7' },
 }

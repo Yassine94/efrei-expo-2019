@@ -6,7 +6,9 @@ const typeDefs = `
 
   type Query {
     porsches: [Porsche!]!
+    searchPorsches(GenericModelId: ID!): [Porsche!]!
     genericModels: [GenericModel!]!
+    genericModel(id: ID!): GenericModel
   }
 
   type Mutation {
@@ -33,7 +35,7 @@ const typeDefs = `
   }
 
   input PorscheInput {
-    GenericModelId: String!
+    GenericModelId: ID!
     model: String!
     imageURL: String!
   }

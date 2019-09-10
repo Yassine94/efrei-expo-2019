@@ -12,8 +12,18 @@ const resolvers = {
     porsches: async (obj, args, ctx, info) => {
       return await models.Porsche.findAll();
     },
+    searchPorsches: async (obj, args, ctx, info) => {
+      return await models.Porsche.findAll({
+        where: {
+          'GenericModelId': args.GenericModelId
+        },
+      });
+    },
     genericModels: async (obj, args, ctx, info) => {
       return await models.GenericModel.findAll();
+    },
+    genericModel: async (obj, args, ctx, info) => {
+      return await models.GenericModel.findByPk(args.id);
     },
   },
   Mutation: {
