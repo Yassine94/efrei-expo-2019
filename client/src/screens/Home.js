@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import {useQuery} from '@apollo/react-hooks';
 import * as queries from '../apollo/queries';
-<<<<<<< HEAD
-import { Text, FlatList, StyleSheet, Card} from 'react-native';
 import {Grid,Col} from 'native-base';
-=======
 import { Dimensions, Text, FlatList, Image, TouchableOpacity, View, StyleSheet, ImageBackground} from 'react-native';
 
 const styles = StyleSheet.create(
@@ -37,7 +34,6 @@ const styles = StyleSheet.create(
     }
   }
 )
->>>>>>> 940ed455928ab8fa4318bde68f9c007e6131d562
 
 const style = StyleSheet.create({
   row: {
@@ -51,16 +47,6 @@ const {loading, error, data} = useQuery(queries.GET_GENERIC_MODELS);
       {loading && <Text>{'Loading...'}</Text>}
       {error && <Text>{error.message}</Text>}
       {!loading && !error && (
-<<<<<<< HEAD
-      <>
-      <FlatList
-        numColumns = { 2 }
-        data = { data.genericModels }
-        renderItem = { ({ item }) => (
-          <Image style={{width: Dimensions.get('window').width/2, height: Dimensions.get('window').height/3}} source={{ uri: item.imageURL }}></Image>
-        )} />
-    </>
-=======
         <>
           <FlatList
             numColumns = { 2 }
@@ -80,7 +66,6 @@ const {loading, error, data} = useQuery(queries.GET_GENERIC_MODELS);
                 </View>
             )} />
         </>
->>>>>>> 940ed455928ab8fa4318bde68f9c007e6131d562
       )}
     </View>
   );

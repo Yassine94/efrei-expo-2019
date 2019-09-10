@@ -1,0 +1,4950 @@
+{ 
+    "models":[
+      { 
+      "id": "982120", 
+      "year": "",
+      "modelrange": "718",      
+      "compare": [
+       { 
+        "geartype": "Boîte mécanique",
+              "price_raw": "57170",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 57 170,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "220 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "300 ch"
+              },
+              "T04-2":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "—"
+              },
+              "T04-10":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "—"
+              },
+              "T04-1":
+              {
+              "name": "",
+              "title": "Vitesse maximale sur circuit",
+              "value": "—"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "8,1 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "186 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1.295 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1.801 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4.379 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2.475 mm"
+              }                   
+       },
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "60020",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 60 020,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "220 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "300 ch"
+              },
+              "T04-2":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "—"
+              },
+              "T04-10":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "—"
+              },
+              "T04-1":
+              {
+              "name": "",
+              "title": "Vitesse maximale sur circuit",
+              "value": "—"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "7,9 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "180 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1.295 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1.801 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4.379 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2.475 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "982130", 
+      "year": "",
+      "modelrange": "718",      
+      "compare": [
+       { 
+        "geartype": "Boîte mécanique",
+              "price_raw": "69740",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 69 740,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "257 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "350 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,9 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,9 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "285 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "9,2 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "210 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 295 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 801 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 379 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 475 mm"
+              }                   
+       },
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "72590",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 72 590,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "257 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "350 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,4 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,2 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "285 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "8,5 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "193 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 295 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 801 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 379 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 475 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "982320", 
+      "year": "",
+      "modelrange": "718",      
+      "compare": [
+       { 
+        "geartype": "Boîte mécanique",
+              "price_raw": "59209",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 59 209,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "220 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "300 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "5,3 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "5,3 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "275 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "8,1 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "186 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1.281 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1.801 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4.379 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2.475 mm"
+              }                   
+       },
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "62059",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 62 059,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "220 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "300 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,9 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,7 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "275 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "7,9 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "180 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1.281 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1.801 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4.379 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2.475 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "982330", 
+      "year": "",
+      "modelrange": "718",      
+      "compare": [
+       { 
+        "geartype": "Boîte mécanique",
+              "price_raw": "71780",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 71 780,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "257 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "350 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,9 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,9 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "285 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "9,2 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "210 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 280 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 801 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 379 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 475 mm"
+              }                   
+       },
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "74630",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 74 630,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "257 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "350 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,4 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,2 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "285 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "8,5 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "194 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 280 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 801 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 379 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 475 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "982150", 
+      "year": "",
+      "modelrange": "718",      
+      "compare": [
+       { 
+        "geartype": "Boîte mécanique",
+              "price_raw": "66170",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 66 170,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "220 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "300 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "5,3 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "5,3 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "275 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "8,1 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "186 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 276 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 801 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 379 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 475 mm"
+              }                   
+       },
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "69452",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 69 452,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "220 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "300 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,9 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,7 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "275 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "7,9 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "180 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 276 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 801 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 379 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 475 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "982350", 
+      "year": "",
+      "modelrange": "718",      
+      "compare": [
+       { 
+        "geartype": "Boîte mécanique",
+              "price_raw": "68210",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 68 210,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "220 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "300 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "5,3 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "5,3 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "275 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "8,2 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "187 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 264 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 801 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 379 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 475 mm"
+              }                   
+       },
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "71492",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 71 492,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "220 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "300 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,9 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,7 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "275 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "7,9 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "181 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 264 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 801 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 379 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 475 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "982140", 
+      "year": "",
+      "modelrange": "718",      
+      "compare": [
+       { 
+        "geartype": "Boîte mécanique",
+              "price_raw": "80179",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 80 179,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "269 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "365 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,9 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,9 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "290 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "9,2 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "210 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 286 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 801 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 393 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 475 mm"
+              }                   
+       },
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "83461",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 83 461,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "269 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "365 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,3 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,1 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "290 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "8,5 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "194 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 286 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 801 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 393 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 475 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "982340", 
+      "year": "",
+      "modelrange": "718",      
+      "compare": [
+       { 
+        "geartype": "Boîte mécanique",
+              "price_raw": "82219",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 82 219,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "269 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "365 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,9 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,9 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "290 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "9,2 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "210 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 272 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1.801 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4.379 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2.475 mm"
+              }                   
+       },
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "85501",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 85 501,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "269 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "365 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,3 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,1 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "290 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "8,5 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "195 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 272 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1.801 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4.379 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2.475 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "982810", 
+      "year": "",
+      "modelrange": "718",      
+      "compare": [
+       { 
+        "geartype": "Boîte mécanique",
+              "price_raw": "98180",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 98 180,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "309 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "420 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,4 s"
+              },
+              "T04-10":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "—"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "304 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "10,9 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "249 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 269 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 801 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 456 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 484 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "982510", 
+      "year": "",
+      "modelrange": "718",      
+      "compare": [
+       { 
+        "geartype": "Boîte mécanique",
+              "price_raw": "95299",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 95 299,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "309 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "420 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,4 s"
+              },
+              "T04-10":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "—"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "301 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "10,9 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "249 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 258 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 801 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 430 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 484 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "992110", 
+      "year": "",
+      "modelrange": "911",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "106654",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 106 654,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "283 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "385 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,2 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,0 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "293 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "9,0 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "206 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 298 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 852 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 519 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 450 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "992310", 
+      "year": "",
+      "modelrange": "911",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "121055",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 121 055,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "283 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "385 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,4 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,2 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "291 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "9,2 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "210 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 297 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 852 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 519 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 450 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "992410", 
+      "year": "",
+      "modelrange": "911",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "114574",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 114 574,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "283 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "385 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,2 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,0 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "291 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "9,2 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "210 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 298 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 852 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 519 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 450 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "992610", 
+      "year": "",
+      "modelrange": "911",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "128975",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 128 975,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "283 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "385 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,4 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,2 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "289 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "9,2 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "211 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 297 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 852 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 519 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 450 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "992120", 
+      "year": "",
+      "modelrange": "911",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "122255",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 122 255,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "331 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "450 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "3,7 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "3,5 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "308 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "8,9 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "205 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 300 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 852 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 519 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 450 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "992320", 
+      "year": "",
+      "modelrange": "911",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "136654",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 136 654,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "331 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "450 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "3,9 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "3,7 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "306 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "9,1 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "208 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 299 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 852 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 519 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 450 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "992420", 
+      "year": "",
+      "modelrange": "911",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "130175",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 130 175,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "331 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "450 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "3,6 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "3,4 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "306 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "9,0 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "206 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 300 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 852 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 519 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 450 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "992620", 
+      "year": "",
+      "modelrange": "911",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "144574",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 144 574,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "331 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "450 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "3,8 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "3,6 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "304 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "9,0 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "207 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 299 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 852 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 519 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 450 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "991140", 
+      "year": "",
+      "modelrange": "911",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "132575",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 132 575,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "331 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "450 ch"
+              },
+              "T04-2":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "—"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "3,7 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "310 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "8,8 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emission CO2 g/km (cycle mixte)*",
+              "value": "201 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 284 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 852 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 528 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 450 mm"
+              }                   
+       }],
+             
+      "footnotes" : [
+      ]
+    },
+      { 
+      "id": "991340", 
+      "year": "",
+      "modelrange": "911",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "145775",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 145 775,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "331 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "450 ch"
+              },
+              "T04-2":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "—"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "3,8 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "308 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "8,8 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emission CO2 g/km (cycle mixte)*",
+              "value": "202 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 291 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 852 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 528 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 450 mm"
+              }                   
+       }],
+             
+      "footnotes" : [
+      ]
+    },
+      { 
+      "id": "991440", 
+      "year": "",
+      "modelrange": "911",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "140015",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 140 015,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "331 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "450 ch"
+              },
+              "T04-2":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "—"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "3,6 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "308 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "8,9 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emission CO2 g/km (cycle mixte)*",
+              "value": "203 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 284 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 852 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 528 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 450 mm"
+              }                   
+       }],
+             
+      "footnotes" : [
+      ]
+    },
+      { 
+      "id": "991640", 
+      "year": "",
+      "modelrange": "911",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "153215",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 153 215,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "331 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "450 ch"
+              },
+              "T04-2":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "—"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "3,7 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "306 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "9,1 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emission CO2 g/km (cycle mixte)*",
+              "value": "207 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 293 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 852 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 528 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 450 mm"
+              }                   
+       }],
+             
+      "footnotes" : [
+      ]
+    },
+      { 
+      "id": "991540", 
+      "year": "",
+      "modelrange": "911",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "153215",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 153 215,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "331 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "450 ch"
+              },
+              "T04-2":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "—"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "3,7 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "306 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "9,1 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emission CO2 g/km (cycle mixte)*",
+              "value": "207 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 291 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 852 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 528 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 450 mm"
+              }                   
+       }],
+             
+      "footnotes" : [
+      ]
+    },
+      { 
+      "id": "991890", 
+      "year": "",
+      "modelrange": "911",      
+      "compare": [
+       { 
+        "geartype": "Boîte mécanique",
+              "price_raw": "273095",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 273 095,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "375 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "510 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,0 s"
+              },
+              "T04-10":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "—"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "310 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "13,8 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "317 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 250 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 852 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 562 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 457 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "991850", 
+      "year": "",
+      "modelrange": "911",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "198335",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 198 335,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "383 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "520 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "3,2 s"
+              },
+              "T04-10":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "—"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "312 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "13,2 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "303 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 297 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 880 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 557 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 453 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "97ABY1", 
+      "year": "",
+      "modelrange": "panamera",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "99676",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 99 676,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "243 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "330 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "5,5 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "5,3 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "262 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "8,4 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)",
+              "value": "194 - 192 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 423 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 937 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "5 049 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 950 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "97BBY1", 
+      "year": "",
+      "modelrange": "panamera",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "109397",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 109 397,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "243 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "330 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "5,6 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "5,4 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "262 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)",
+              "value": "8,7 - 8,6 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)",
+              "value": "199 - 197 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 428 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 937 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "5 199 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "3 100 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "97ADB1", 
+      "year": "",
+      "modelrange": "panamera",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "120316",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 120 316,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "324 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "440 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,4 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,2 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "289 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "8,3 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)",
+              "value": "191 - 190 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 423 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 937 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "5 049 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 950 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "97BDB1", 
+      "year": "",
+      "modelrange": "panamera",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "134237",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 134 237,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "324 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "440 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,5 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,3 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "289 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "8,5 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)",
+              "value": "196 - 194 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 428 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 937 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "5 199 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "3 100 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "97ADG1", 
+      "year": "",
+      "modelrange": "panamera",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "142756",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 142 756,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "338 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "460 ch"
+              },
+              "T04-2":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "—"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,1 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "292 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "10,3 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "235 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 417 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 937 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "5 053 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 950 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "97CDG1", 
+      "year": "",
+      "modelrange": "panamera",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "145636",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 145 636,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "338 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "460 ch"
+              },
+              "T04-2":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "—"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,1 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "289 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "10,6 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "242 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 422 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 937 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "5 053 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 950 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "97AFF1", 
+      "year": "",
+      "modelrange": "panamera",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "162437",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 162 437,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "404 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "550 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "3,8 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "3,6 s"
+              },
+              "T04-1":
+              {
+              "name": "",
+              "title": "Vitesse maximale sur circuit",
+              "value": "—"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "10,4 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "238 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 427 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 937 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "5 049 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 950 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "97CFF1", 
+      "year": "",
+      "modelrange": "panamera",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "165317",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 165 317,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "404 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "550 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "3,8 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "3,6 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "304 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "10,6 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "243 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 432 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 937 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "5 049 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 950 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "97BFF1", 
+      "year": "",
+      "modelrange": "panamera",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "175997",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 175 997,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "404 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "550 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "3,9 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "3,7 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "306 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "10,6 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "242 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 432 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 937 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "5 199 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "3 100 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "97ABE1", 
+      "year": "",
+      "modelrange": "panamera",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "115277",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 115 277,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance combinée (kW)",
+              "value": "340 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance combinée (ch)",
+              "value": "462 ch"
+              },
+              "T04-2":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "—"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,6 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "278 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)",
+              "value": "2,7 - 2,6 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)",
+              "value": "62 - 60 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1.423 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1.937 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "5.049 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2.950 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "97BBE1", 
+      "year": "",
+      "modelrange": "panamera",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "122836",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 122 836,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance combinée (kW)",
+              "value": "340 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance combinée (ch)",
+              "value": "462 ch"
+              },
+              "T04-2":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "—"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,7 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "278 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)",
+              "value": "2,7 - 2,6 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)",
+              "value": "62 - 61 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 428 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 937 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "5 199 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "3 100 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "97AFH1", 
+      "year": "",
+      "modelrange": "panamera",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "193036",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 193 036,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance combinée (kW)",
+              "value": "500 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance combinée (ch)",
+              "value": "680 ch"
+              },
+              "T04-2":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "—"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "3,4 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "310 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "3,3 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "74 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 427 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 937 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "5 049 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 950 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "97CFH1", 
+      "year": "",
+      "modelrange": "panamera",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "195917",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 195 917,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance combinée (kW)",
+              "value": "500 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance combinée (ch)",
+              "value": "680 ch"
+              },
+              "T04-2":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "—"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "3,4 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "310 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "3,3 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "76 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 432 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 937 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "5 049 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 950 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "97BFH1", 
+      "year": "",
+      "modelrange": "panamera",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "206596",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 206 596,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance combinée (kW)",
+              "value": "500 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance combinée (ch)",
+              "value": "680 ch"
+              },
+              "T04-2":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "—"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "3,5 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "310 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "3,3 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "74 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 432 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 937 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "5 199 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "3 100 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "95BAM1", 
+      "year": "",
+      "modelrange": "macan",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "61460",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 61 460,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "180 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "245 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "6,7 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "6,5 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "225 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "8,1 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)",
+              "value": "185 - 181 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 624 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 923 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 696 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 807 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "95BBH1", 
+      "year": "",
+      "modelrange": "macan",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "67099",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 67 099,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "260 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "354 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "5,3 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "5,1 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "254 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "8,9 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)",
+              "value": "204 - 196 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 624 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 923 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 696 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 807 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "95BCI1", 
+      "year": "",
+      "modelrange": "macan",      
+      "compare": [
+       { 
+        "geartype": "Boîte PDK",
+              "price_raw": "93859",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 93 859,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "324 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "440 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,5 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,3 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "270 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)*",
+              "value": "9,8 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)*",
+              "value": "224 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 624 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 926 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 684 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 807 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "9YAAA1", 
+      "year": "",
+      "modelrange": "cayenne",      
+      "compare": [
+       { 
+        "geartype": "Boîte Tiptronic S",
+              "price_raw": "78657",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 78 657,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "250 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "340 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "6,2 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "5,9 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "245 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)",
+              "value": "9,2 - 9,1 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)",
+              "value": "210 - 207 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 696 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 983 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 918 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 895 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "9YAAE1", 
+      "year": "",
+      "modelrange": "cayenne",      
+      "compare": [
+       { 
+        "geartype": "Boîte Tiptronic S",
+              "price_raw": "94101",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 94 101,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance combinée (kW)",
+              "value": "340 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance combinée (ch)",
+              "value": "462 ch"
+              },
+              "T04-2":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "—"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "5,0 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "253 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)",
+              "value": "3,2 - 3,1 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)",
+              "value": "74 - 70 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 696 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 983 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 918 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 895 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "9YABB1", 
+      "year": "",
+      "modelrange": "cayenne",      
+      "compare": [
+       { 
+        "geartype": "Boîte Tiptronic S",
+              "price_raw": "96297",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 96 297,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "324 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "440 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "5,2 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "4,9 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "265 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)",
+              "value": "9,4 - 9,2 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)",
+              "value": "215 - 211 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 696 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 983 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 918 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 895 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "9YACF1", 
+      "year": "",
+      "modelrange": "cayenne",      
+      "compare": [
+       { 
+        "geartype": "Boîte Tiptronic S",
+              "price_raw": "144177",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 144 177,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "404 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "550 ch"
+              },
+                  "T04-2": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "4,1 s"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "3,9 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "286 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)",
+              "value": "11,4 - 11,3 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)",
+              "value": "261 - 258 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 673 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 983 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 926 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 895 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "9YACH1", 
+      "year": "",
+      "modelrange": "cayenne",      
+      "compare": [
+       { 
+        "geartype": "Boîte Tiptronic S",
+              "price_raw": "175377",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 175 377,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance combinée (kW)",
+              "value": "500 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance combinée (ch)",
+              "value": "680 ch"
+              },
+              "T04-2":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "—"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "3,8 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "295 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)",
+              "value": "3,9 - 3,7 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)",
+              "value": "90 - 85 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 673 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 983 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 926 mm"
+              },
+              "T11-6":
+              {
+              "name": "wheelbase",
+              "title": "Empattement",
+              "value": "—"
+              }                   
+       }]
+    },
+      { 
+      "id": "9YBAA1", 
+      "year": "",
+      "modelrange": "cayenne",      
+      "compare": [
+       { 
+        "geartype": "Boîte Tiptronic S",
+              "price_raw": "85737",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 85 737,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "250 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "340 ch"
+              },
+              "T04-2":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "—"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "6,0 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "243 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)",
+              "value": "9,4 - 9,3 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)",
+              "value": "215 - 212 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 676 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 983 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 931 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 895 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "9YBAE1", 
+      "year": "",
+      "modelrange": "cayenne",      
+      "compare": [
+       { 
+        "geartype": "Boîte Tiptronic S",
+              "price_raw": "98097",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 98 097,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance combinée (kW)",
+              "value": "340 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance combinée (ch)",
+              "value": "462 ch"
+              },
+              "T04-2":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "—"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "5,1 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "253 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)",
+              "value": "3,2 - 3,1 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)",
+              "value": "75 - 72 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 676 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 983 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 931 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 895 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "9YBBB1", 
+      "year": "",
+      "modelrange": "cayenne",      
+      "compare": [
+       { 
+        "geartype": "Boîte Tiptronic S",
+              "price_raw": "101817",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 101 817,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "324 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "440 ch"
+              },
+              "T04-2":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "—"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "5,0 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "263 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)",
+              "value": "9,4 - 9,2 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)",
+              "value": "216 - 212 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 676 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 983 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 931 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 895 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "9YBCF1", 
+      "year": "",
+      "modelrange": "cayenne",      
+      "compare": [
+       { 
+        "geartype": "Boîte Tiptronic S",
+              "price_raw": "149217",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 149 217,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance (kW)",
+              "value": "404 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance (ch)",
+              "value": "550 ch"
+              },
+              "T04-2":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "—"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "3,9 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "286 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)",
+              "value": "11,4 - 11,3 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)",
+              "value": "261 - 258 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 653 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 989 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 939 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 895 mm"
+              }                   
+       }]
+    },
+      { 
+      "id": "9YBCH1", 
+      "year": "",
+      "modelrange": "cayenne",      
+      "compare": [
+       { 
+        "geartype": "Boîte Tiptronic S",
+              "price_raw": "179097",
+          "price" : [
+                { "title": "Prix", 
+                "value": "à partir de EUR 179 097,00 TTC Prix client conseillé"  
+                  ,"mark": ""
+                
+                }
+              ],
+                  "T01-44": {
+              "name": "",
+              
+              "title": "Puissance combinée (kW)",
+              "value": "500 kW"
+              },
+                  "T01-45": {
+              "name": "",
+              
+              "title": "Puissance combinée (ch)",
+              "value": "680 ch"
+              },
+              "T04-2":
+              {
+              "name": "",
+              "title": "Accélération de 0 à 100 km/h",
+              "value": "—"
+              },
+                  "T04-10": {
+              "name": "",
+              
+              "title": "Accélération de 0 à 100 km/h avec Pack Sport Chrono",
+              "value": "3,8 s"
+              },
+                  "T04-1": {
+              "name": "",
+              
+              "title": "Vitesse maximale sur circuit",
+              "value": "295 km/h"
+              },
+                  "T05-9": {
+              "name": "",
+              
+              "title": "Cycle mixte (l/ 100 km)",
+              "value": "3,9 - 3,7 l/100 km"
+              },
+                  "T05-4": {
+              "name": "",
+              
+              "title": "Emissions CO2 g/km (cycle mixte)",
+              "value": "90 - 85 g/km"
+              },
+                  "T11-4": {
+              "name": "height",
+              
+              "title": "Hauteur",
+              "value": "1 653 mm"
+              },
+                  "T11-3": {
+              "name": "width",
+              
+              "title": "Largeur (sans rétroviseurs extérieurs)",
+              "value": "1 989 mm"
+              },
+                  "T11-2": {
+              "name": "length",
+              
+              "title": "Longueur",
+              "value": "4 939 mm"
+              },
+                  "T11-6": {
+              "name": "wheelbase",
+              
+              "title": "Empattement",
+              "value": "2 895 mm"
+              }                   
+       }]
+    }]
+}
