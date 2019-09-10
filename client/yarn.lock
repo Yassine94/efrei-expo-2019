@@ -9338,6 +9338,10 @@ react-native-web@^0.11.4:
     prop-types "^15.6.0"
     react-timer-mixin "^0.13.4"
 
+react-native-webp-support@TGPSKI/react-native-webp-support:
+  version "0.4.0"
+  resolved "https://codeload.github.com/TGPSKI/react-native-webp-support/tar.gz/fefbf58a3f59a82465a6ca1139ed2d922754c3da"
+
 react-native@0.59.10:
   version "0.59.10"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.59.10.tgz#352f381e382f93a0403be499c9e384bf51c2591c"
