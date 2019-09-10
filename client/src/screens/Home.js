@@ -17,6 +17,19 @@ const styles = StyleSheet.create(
       width: '100%',
       height: '100%',
       justifyContent: 'flex-end',
+    },
+    tileText: {
+      fontFamily: 'rage',
+      fontSize: 22,
+      color: '#eb8cb7',
+      textAlign: 'center',
+    },
+    tileFooter: {
+      borderTopWidth: 0.5,
+      borderColor: '#eb8cb780',
+      backgroundColor: '#000000aa',
+      height:'15%',
+      justifyContent: 'center'
     }
   }
 )
@@ -37,10 +50,10 @@ const {loading, error, data} = useQuery(queries.GET_GENERIC_MODELS);
                 <ImageBackground source={{ uri: item.imageURL }} style={ styles.tileImage }>
                   <TouchableOpacity
                     onPress={()=>{console.log("ok")}}
-                    style={{width: '100%', height: '100%', justifyContent: 'flex-end'}}
+                    style={ styles.tileImage }
                     activeOpacity={0.60}>
-                      <View style={{borderTopWidth: '0.5' , borderColor: '#eb8cb780', backgroundColor: '#000000aa', height:'15%', justifyContent: 'center'}}>
-                        <Text style={{fontFamily: 'rage', fontSize: '22', color: '#eb8cb7', textAlign: 'center'}}> { item.model } </Text>
+                      <View style={ styles.tileFooter }>
+                        <Text style={ styles.tileText }> { item.model } </Text>
                       </View>
                     </TouchableOpacity>
                   </ImageBackground>
@@ -51,6 +64,7 @@ const {loading, error, data} = useQuery(queries.GET_GENERIC_MODELS);
     </View>
   );
 }
+
 Screen.navigationOptions = {
   title: 'PORSCHES',
   headerStyle: { backgroundColor: '#141518' },
