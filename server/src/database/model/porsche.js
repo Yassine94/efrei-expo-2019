@@ -6,6 +6,7 @@ module.exports = (sequelize, DataTypes) => {
 		},
 		model: DataTypes.STRING,
 		imageURL: DataTypes.STRING,
+		basePrice: DataTypes.NUMBER,
 	});
 
 	Porsche.associate = (models) => {

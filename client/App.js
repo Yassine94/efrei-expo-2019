@@ -7,7 +7,7 @@ import * as Font from 'expo-font';
 import RootNavigator from './src/navigator';
 
 const client = new ApolloClient({
-  uri: 'http://8ffdc0c6.ngrok.io/',
+  uri: 'http://b4f89410.ngrok.io/',
 });
 
 const App = () => {

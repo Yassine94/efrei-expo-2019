@@ -21,6 +21,7 @@ const typeDefs = `
     genericModel: GenericModel!
     model: String!
     imageURL: String!
+    basePrice: Int!
   }
 
   type GenericModel {
