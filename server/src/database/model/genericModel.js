@@ -5,12 +5,11 @@ module.exports = (sequelize, DataTypes) => {
 			primaryKey: true,
 		},
 		model: DataTypes.STRING,
-		imageURL: DataTypes.STRING,
 	});
-	
+
 	GenericModel.associate = (models) => {
 		GenericModel.hasMany(models.Porsche, { constraints: false });
 	};
-	
+
 	return GenericModel;
 }

@@ -21,24 +21,21 @@ const typeDefs = `
     genericModel: GenericModel!
     model: String!
     imageURL: String!
-    basePrice: Int!
+    basePrice: String!
+    maxSpeed: Int!
   }
 
   type GenericModel {
     id: ID!
     model: String!
-    imageURL: String!
-  }
-
-  input GenericModelInput {
-    model: String!
-    imageURL: String!
   }
 
   input PorscheInput {
     GenericModelId: ID!
     model: String!
     imageURL: String!
+    basePrice: String!
+    maxSpeed: Int!
   }
 `;
 
