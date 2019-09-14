@@ -4,8 +4,7 @@ export const GET_GENERIC_MODELS = gql `
   {
     genericModels{
       id,
-      model,
-      imageURL
+      model
     }
   }`;
 
@@ -18,11 +17,11 @@ export const SEARCH_PORSCHES = gql `
   	}
   }
   `;
-  
+
 export const CREATE_PORSCHE = gql `
   mutation createPorsche($data: PorscheInput!) {
     createPorsche(data: $data)
-  } 
+  }
   `;
 /* Exemple JSON
 {

@@ -45,9 +45,9 @@ const {loading, error, data} = useQuery(queries.GET_GENERIC_MODELS);
           <FlatList
             numColumns = { 2 }
             data = { data.genericModels }
-            renderItem = { ({ item: { id, model, imageURL } }) => (
+            renderItem = { ({ item: { id, model } }) => (
               <View style={ styles.tile }>
-                <ImageBackground source={{ uri: imageURL }} style={ styles.tileImage }>
+                <ImageBackground source={require(`../images/genericModels/${id}.jpg`)} style={ styles.tileImage }>
                   <TouchableOpacity
                     onPress={() => navigation.navigate('Porsches', { id, model })}
                     style={ styles.tileImage }

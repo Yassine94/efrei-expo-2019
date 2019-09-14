@@ -11,10 +11,15 @@ const client = new ApolloClient({
 });
 
 const App = () => {
-  useEffect(async () => {
-    await Font.loadAsync({
-      'rage': require('./assets/fonts/rage.ttf'),
-    });
+    const loadRageFont = async () => {
+        await Font.loadAsync({
+          'rage': require('./assets/fonts/rage.ttf'),
+        });
+    }
+    
+    
+  useEffect( () => {
+      loadRageFont();
   }, []);
 
     return (

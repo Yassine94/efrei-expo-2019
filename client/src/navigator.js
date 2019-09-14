@@ -1,7 +1,7 @@
 import React from 'react';
 import HomeScreen from './screens/Home';
 import PorschesScreen from './screens/Porsches';
-import PorscheDetailsScreen from './screens/Porsches';
+import PorscheDetailsScreen from './screens/PorscheDetails';
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from 'react-navigation-stack';
 import { createBottomTabNavigator } from 'react-navigation-tabs';

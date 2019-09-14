@@ -30,12 +30,13 @@ const Screen = ({ navigation }) => {
 				<>
 					<FlatList
 						data = { data.searchPorsches }
-						renderItem = { ({ item }) => (
+						renderItem = { ({ item: { id, model, imageURL }  }) => (
 							<TouchableOpacity
+								onPress={() => navigation.navigate('PorscheDetails', { id, model })}
 								activeOpacity={0.60}>
 								<View>
-									<Image source={{ uri: item.imageURL }} style={{ width: 170, height: 100 }}></Image>
-									<Text>{ item.model }</Text>
+									<Image source={{ uri: imageURL }} style={{ width: 170, height: 100 }}></Image>
+									<Text>{ model }</Text>
 								</View>
 							</TouchableOpacity>
 						)}
