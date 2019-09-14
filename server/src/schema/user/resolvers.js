@@ -1,40 +1,36 @@
-import users from '../../data/users';
+import models from '../../database/model';
 import uuid from 'uuid/v1';
 
 const resolvers = {
   Query: {
     users: async (obj, args, ctx, info) => {
-      return users
+      return await models.User.findAll();
     }
   },
   Mutation: {
-    createUser: (obj, args, ctx, info) => {
+    createUser: async (obj, args, ctx, info) => {
       const id = uuid();
-      const { firstName, lastName, city } = args.data;
+      const { company, city } = args.data;
 
       const newUser = {
         id,
-        firstName,
-        lastName,
+        company,
         city,
       };
-      users.push(newUser);
-      console.log(users);
+      await models.User.create(newUser);
 
       return true;
     },
-    editUser: (obj, args, ctx, info) => {
-      const { data } = args;
-      const index = users.findIndex((user) => user.id === args.id);
+    editUser: async (obj, args, ctx, info) => {
+      const { data, id } = args;
 
-      users[index] = {
-        ...users[index],
-        firstName: data.firstName,
-        lastName: data.lastName,
+      const updatedUser = {
+        company: data.company,
         city: data.city,
       }
+      await models.User.update(updatedUser, { where: { id } })
 
-      return users[index];
+      return models.User.findByPk(id);
     }
   }
 }

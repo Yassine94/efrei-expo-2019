@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from '@apollo/react-hooks';
-import { StyleSheet, Text, View } from 'react-native';
 import * as Font from 'expo-font';
 
 import RootNavigator from './src/navigator';
@@ -16,8 +15,8 @@ const App = () => {
           'rage': require('./assets/fonts/rage.ttf'),
         });
     }
-    
-    
+
+
   useEffect( () => {
       loadRageFont();
   }, []);

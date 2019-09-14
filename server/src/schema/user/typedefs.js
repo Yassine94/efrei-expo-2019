@@ -15,14 +15,12 @@ const typeDefs = `
 
   type User {
     id: ID!
-    firstName: String!
-    lastName: String!
+    company: String!
     city: String!
   }
 
   input UserInput {
-    firstName: String!
-    lastName: String!
+    company: String!
     city: String!
   }
 `;
