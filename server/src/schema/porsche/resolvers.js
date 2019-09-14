@@ -1,4 +1,3 @@
-import porsches from '../../data/porsches';
 import models from '../../database/model';
 import uuid from 'uuid/v1';
 
@@ -45,7 +44,9 @@ const resolvers = {
       return true;
     },
     editPorsche: async (obj, args, ctx, info) => {
-      const { model, imageURL, basePrice, maxSpeed } = args.data;
+      //TODO
+
+      /*const { model, imageURL, basePrice, maxSpeed } = args.data;
       const index = porsches.findIndex((porsche) => porsche.id === args.id);
 
       const genericModel =   {
@@ -61,7 +62,7 @@ const resolvers = {
       }
       console.log(porsches[index]);
 
-      return porsches[index];
+      return porsches[index];*/
     }
   },
 };
