@@ -4,8 +4,23 @@ module.exports = (sequelize, DataTypes) => {
 			type: DataTypes.UUID,
 			primaryKey: true,
 		},
-		company: DataTypes.STRING,
-		city: DataTypes.STRING,
+    email: {
+      type: DataTypes.STRING,
+      unique: true,
+      allowNull: false
+    },
+		company: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+		city: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    passwordHash: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
 	});
 
 	return User;

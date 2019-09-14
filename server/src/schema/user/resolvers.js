@@ -8,12 +8,18 @@ const resolvers = {
     }
   },
   Mutation: {
+    loginUser: async(obj, args, ctx, info) => {
+      const { email, password } = args;
+      return await models.User.findOne({where: { email, passwordHash: password }});
+    },
     createUser: async (obj, args, ctx, info) => {
       const id = uuid();
-      const { company, city } = args.data;
+      const { email, company, city } = args.data;
 
       const newUser = {
         id,
+        email,
+        passwordHash: "0cc175b9c0f1b6a831c399e269772661", // TODO Generate MD5 password here
         company,
         city,
       };
@@ -25,6 +31,7 @@ const resolvers = {
       const { data, id } = args;
 
       const updatedUser = {
+        email: data.email,
         company: data.company,
         city: data.city,
       }

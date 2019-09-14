@@ -9,17 +9,20 @@ const typeDefs = `
   }
 
   type Mutation {
+    loginUser(email: String!, password: String!): User
     createUser(data: UserInput): Boolean!
     editUser(id: ID!, data: UserInput!): User!
   }
 
   type User {
     id: ID!
+    email: String!
     company: String!
     city: String!
   }
 
   input UserInput {
+    email: String!
     company: String!
     city: String!
   }
