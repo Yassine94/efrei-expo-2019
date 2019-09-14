@@ -1,10 +1,16 @@
 import React from 'react';
-import { View, Text, Image, StyleSheet } from 'react-native';
+import { View, Button, StyleSheet, Dimensions } from 'react-native';
 import Slider from '../components/slider';
 
 const styles = StyleSheet.create({
   container: {
+    height: Dimensions.get('window').height,
+    flex: 1,
     backgroundColor: '#000000'
+  },
+  button: {
+    justifyContent: 'flex-end',
+    bottom: 0
   }
 });
 
@@ -20,7 +26,11 @@ const Screen = ({ navigation }) => {
         ]}
       />
 
-
+      <Button
+        style={ styles.button }
+        title="Acheter"
+        onPress={() => Alert.alert('Simple Button pressed')}
+        />
 		</View>
 	);
 };

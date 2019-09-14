@@ -48,7 +48,15 @@ const Screen = ({ navigation }) => {
 };
 
 Screen.navigationOptions = ({ navigation }) => ({
-  title: navigation.getParam('model')
+  title: navigation.getParam('model'),
+  headerStyle: { backgroundColor: '#141518' },
+  headerTitleStyle: {
+    fontFamily: 'rage',
+    fontSize: 32,
+    color: '#eb8cb7',
+    textAlign:"center",
+    flex:1
+  },
 });
 
 export default Screen;

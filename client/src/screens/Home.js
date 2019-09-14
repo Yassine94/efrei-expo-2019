@@ -68,6 +68,12 @@ const {loading, error, data} = useQuery(queries.GET_GENERIC_MODELS);
 Screen.navigationOptions = {
   title: 'Modèles',
   headerStyle: { backgroundColor: '#141518' },
-  headerTitleStyle: { color: '#eb8cb7' },
+  headerTitleStyle: {
+    fontFamily: 'rage',
+    fontSize: 32,
+    color: '#eb8cb7',
+    textAlign:"center",
+    flex:1
+  },
 }
 export default Screen;
