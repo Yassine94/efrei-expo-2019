@@ -1,6 +1,6 @@
 import React from 'react';
 import { Formik } from 'formik';
-import { View, Text, TextInput, TouchableOpacity, StyleSheet, Dimensions } from 'react-native';
+import { View, Text, TextInput, TouchableOpacity, Image, StyleSheet, Dimensions } from 'react-native';
 import Separator  from '../../components/shared/Separator';
 
 const styles = StyleSheet.create({
@@ -35,6 +35,12 @@ const styles = StyleSheet.create({
     fontFamily: 'Porsche Next Bold',
     fontSize: '1.15rem',
     color: '#fff'
+  },
+  logo: {
+    width: 100,
+    height: 100,
+    marginBottom: 20,
+    alignSelf: 'center'
   }
 });
 
@@ -42,6 +48,7 @@ const Screen = ({ navigation }) => {
 
   return(
     <View style={styles.container}>
+      <Image source={require('../../images/logo.png')} style={styles.logo}/>
       <Text style={styles.title}> Bienvenue sur RN Porsche </Text>
 
       <Formik
