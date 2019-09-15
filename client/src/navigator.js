@@ -25,7 +25,8 @@ const HomeStack = createStackNavigator({
 
 const LoginStack = createSwitchNavigator({
   LoginScreen,
-  RegisterScreen
+  RegisterScreen,
+  HomeStack
 },{
   initialRouteName: 'LoginScreen',
 });

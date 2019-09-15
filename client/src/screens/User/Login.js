@@ -2,6 +2,8 @@ import React from 'react';
 import { Formik } from 'formik';
 import { View, Text, TextInput, TouchableOpacity, Image, StyleSheet, Dimensions } from 'react-native';
 import Separator  from '../../components/shared/Separator';
+import { LOGIN_USER } from '../../apollo/mutations';
+import { useMutation } from '@apollo/react-hooks';
 
 const styles = StyleSheet.create({
   container: {
@@ -45,6 +47,13 @@ const styles = StyleSheet.create({
 });
 
 const Screen = ({ navigation }) => {
+  const [loginUser, { loading, error, data }] = useMutation(LOGIN_USER);
+
+  const login = async ({ email, password }) => {
+    const { data: { loginUser: user } } = await loginUser({ variables : { email, password } });
+    console.log(user);
+
+  }
 
   return(
     <View style={styles.container}>
@@ -53,29 +62,41 @@ const Screen = ({ navigation }) => {
 
       <Formik
         initialValues={{
-          email: '',
-          password: '',
+          email: 'dds1991@hotmail.fr',
+          password: 'a',
         }}
+        validateOnChange={false}
+        validateOnBlur={false}
+        onSubmit={() => navigation.navigate('Home', {}) }
       >
-      <View>
-        <TextInput
-          style={styles.input}
-          textContentType='emailAddress'
-          placeholder='Porsche ID (adresse e-mail)'
-          />
+      { props => (
+        <>
+          <TextInput
+            style={styles.input}
+            textContentType='emailAddress'
+            placeholder='Porsche ID (adresse e-mail)'
+            value={props.values.email}
+            onChangeText={v => props.setFieldValue('email', v)}
+            />
 
-        <Separator spacing='0.75rem' />
+          <Separator spacing='0.75rem' />
 
-        <TextInput
-          style={styles.input}
-          textContentType='password'
-          secureTextEntry={true}
-          />
+          <TextInput
+            style={styles.input}
+            textContentType='password'
+            secureTextEntry={true}
+            value={props.values.password}
+            onChangeText={v => props.setFieldValue('password', v)}
+            />
 
-        <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}> >  Se Connecter </Text>
-        </TouchableOpacity>
-      </View>
+          <TouchableOpacity
+            style={styles.button}
+            onPress={props.handleSubmit}
+          >
+            <Text style={styles.buttonText}> >  Se Connecter </Text>
+          </TouchableOpacity>
+        </>
+      )}
       </Formik>
     </View>
   );
