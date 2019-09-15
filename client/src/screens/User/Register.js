@@ -13,17 +13,25 @@ const styles = StyleSheet.create({
     marginLeft: 15,
     marginRight: 15
   },
+  
+  buttonContainer: {
+    flex: 2,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+
   title: {
     fontFamily: 'Porsche Next',
-    fontSize: 45,
+    fontSize: 18,
     marginBottom: 18,
   },
   input: {
     fontFamily: 'Porsche Next',
     alignSelf: 'stretch',
-    height: 50,
+    height: 30,
     padding: 17,
-    fontSize: 30,
+    fontSize: 10,
     borderBottomWidth: 1,
     borderColor: '#c8cacb',
     color: '#000',
@@ -32,17 +40,26 @@ const styles = StyleSheet.create({
   button: {
     borderRadius: 20,
     alignSelf: 'stretch',
-    width: '40%',
-    padding: 12
+    justifyContent: 'center',
+    textAlign: 'center',
+    width: 150,
+    height: 0,
+    padding: 12,
+    borderTopWidth:1,
+    borderBottomWidth:1,
+    borderColor: '#000',
+    backgroundColor: '#d80404f0',
   },
   buttonText: {
+    color: 'white',
     fontFamily: 'Porsche Next Bold',
-    fontSize: 18
+    fontSize: 10
   },
   logo: {
-    width: 800,
-    height: 400,
-    marginBottom: 20,
+    width: 300,
+    height: 200,
+    marginTop: 10,
+    marginBottom: 10,
     alignSelf: 'center'
   }
 });
@@ -62,7 +79,7 @@ const Screen = ({ navigation }) => {
   return(
     <View style={styles.container}>
       <Image source={logo} style={styles.logo}/>
-      <Text style={styles.title}>Create an account 🏁 </Text>
+      <Text style={styles.title}>🏁 Create an account  </Text>
 
       <Formik
         initialValues={{
@@ -77,7 +94,6 @@ const Screen = ({ navigation }) => {
       >
       { props => (
         <>
-        
           <TextInput
             style={styles.input}
             textContentType='emailAddress'
@@ -128,22 +144,43 @@ const Screen = ({ navigation }) => {
             />
 
           <Separator spacing={45} />
+          <View style={styles.buttonContainer}>
 
           <TouchableOpacity
-            style={[styles.button, { backgroundColor: '#d4001d', borderWidth: 1,borderColor:'#585858e0'}]}
+            style={[styles.button,{
+
+              borderLeftWidth:2,
+              borderStartColor:'#000',
+              borderEndColor: '#fff',
+              borderTopEndRadius:0,
+              borderBottomEndRadius:0
+            
+            }]}
+          
             onPress={props.handleSubmit}
           >
-            <Text style={[styles.buttonText, { color: '#fff' }]}>✔️ Create Porsche ID</Text>
+          <Text style={[styles.buttonText, {  }]}>✔️ Create Porsche ID</Text>
           </TouchableOpacity>
 
           <Separator spacing={12} />
 
           <TouchableOpacity
-            style={[styles.button, {borderWidth: 1,borderColor:'#585858e0' }]}
+            style={[styles.button, {
+              borderRightWidth:2,
+              borderLeftWidth:1,
+              backgroundColor:'white',
+              borderEndColor:'#000',
+              borderStartColor: '#fff',
+              borderTopStartRadius:0,
+              borderBottomStartRadius:0,
+            }
+          ]}
             onPress={() => navigation.navigate('Login')}
           >
-            <Text style={styles.buttonText}>❌ Cancel </Text>
+            <Text style={[styles.buttonText,{color:'black'}]}>❌ Cancel </Text>
           </TouchableOpacity>
+          </View>
+    
         </>
       )}
       </Formik>
