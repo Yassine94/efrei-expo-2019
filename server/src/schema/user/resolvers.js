@@ -1,40 +1,49 @@
-import users from '../../data/users';
+import * as crypto from 'crypto';
 import uuid from 'uuid/v1';
+import models from '../../database/model';
 
 const resolvers = {
   Query: {
     users: async (obj, args, ctx, info) => {
-      return users
+      return await models.User.findAll();
     }
   },
   Mutation: {
-    createUser: (obj, args, ctx, info) => {
+    loginUser: async(obj, args, ctx, info) => {
+      const { email, password } = args;
+      const passwordHash = crypto.createHash('md5').update(password).digest("hex");
+
+      return await models.User.findOne({ where: { email, passwordHash } });
+    },
+    createUser: async (obj, args, ctx, info) => {
       const id = uuid();
-      const { firstName, lastName, city } = args.data;
+      const { email, password, company, city } = args.data;
+      const passwordHash = crypto.createHash('md5').update(password).digest("hex");
 
       const newUser = {
         id,
-        firstName,
-        lastName,
+        email,
+        passwordHash,
+        company,
         city,
       };
-      users.push(newUser);
-      console.log(users);
+      await models.User.create(newUser);
 
       return true;
     },
-    editUser: (obj, args, ctx, info) => {
-      const { data } = args;
-      const index = users.findIndex((user) => user.id === args.id);
+    editUser: async (obj, args, ctx, info) => {
+      const { data: { email, password, company, city }, id } = args;
+      const passwordHash = crypto.createHash('md5').update(data.password).digest("hex");
 
-      users[index] = {
-        ...users[index],
-        firstName: data.firstName,
-        lastName: data.lastName,
-        city: data.city,
-      }
+      const updatedUser = {
+        email,
+        passwordHash,
+        company,
+        city,
+      };
+      await models.User.update(updatedUser, { where: { id } });
 
-      return users[index];
+      return models.User.findByPk(id);
     }
   }
 }

@@ -51,9 +51,9 @@ const {loading, error, data} = useQuery(queries.GET_GENERIC_MODELS);
           <FlatList
             numColumns = { 2 }
             data = { data.genericModels }
-            renderItem = { ({ item: { id, model, imageURL } }) => (
+            renderItem = { ({ item: { id, model } }) => (
               <View style={ styles.tile }>
-                <ImageBackground source={{ uri: imageURL }} style={ styles.tileImage }>
+                <ImageBackground source={require(`../images/genericModels/${id}.jpg`)} style={ styles.tileImage }>
                   <TouchableOpacity
                     onPress={() => navigation.navigate('Porsches', { id, model })}
                     style={ styles.tileImage }
@@ -74,6 +74,12 @@ const {loading, error, data} = useQuery(queries.GET_GENERIC_MODELS);
 Screen.navigationOptions = {
   title: 'Modèles',
   headerStyle: { backgroundColor: '#141518' },
-  headerTitleStyle: { color: '#eb8cb7' },
+  headerTitleStyle: {
+    fontFamily: 'rage',
+    fontSize: 32,
+    color: '#eb8cb7',
+    textAlign:"center",
+    flex:1
+  },
 }
 export default Screen;
