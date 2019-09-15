@@ -1,5 +1,6 @@
 import React from 'react';
 import HomeScreen from './screens/Home';
+import ProfilScreen from './screens/Profil';
 import PorschesScreen from './screens/Porsches';
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from 'react-navigation-stack';
@@ -18,6 +19,7 @@ const HomeStack = createStackNavigator({
 
 const TabNavigator = createBottomTabNavigator({
   Home: HomeStack,
+  Profil: ProfilScreen,
 }, {
   initialRouteName: 'Home',
   tabBarOptions: {
