@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontFamily: 'Porsche Next',
-    fontSize: 26,
+    fontSize: 45,
     marginBottom: 18,
   },
   input: {
@@ -23,12 +23,16 @@ const styles = StyleSheet.create({
     alignSelf: 'stretch',
     height: 50,
     padding: 17,
-    borderWidth: 1,
+    fontSize: 30,
+    borderBottomWidth: 1,
     borderColor: '#c8cacb',
-    color: '#000'
+    color: '#000',
+
   },
   button: {
+    borderRadius: 20,
     alignSelf: 'stretch',
+    width: '40%',
     padding: 12
   },
   buttonText: {
@@ -36,8 +40,8 @@ const styles = StyleSheet.create({
     fontSize: 18
   },
   logo: {
-    width: 100,
-    height: 100,
+    width: 800,
+    height: 400,
     marginBottom: 20,
     alignSelf: 'center'
   }
@@ -45,10 +49,10 @@ const styles = StyleSheet.create({
 
 const Screen = ({ navigation }) => {
   const [registerUser, { loading, error, data }] = useMutation(CREATE_USER);
-  const logo = require('../../images/logo.png');
+  const logo = require('../../images/newlogo.png');
 
   const register = async ({email, password, company, city}) => {
-    const { data: { createUser } } = await registerUser({ variables: { data: { email, password, company, city } } });
+    const { data: { createUser } } = await registerUser({ variables: { data: { email, password, company, city, country } } });
 
     if(createUser) {
       navigation.navigate('Login', { email, password });
@@ -58,14 +62,14 @@ const Screen = ({ navigation }) => {
   return(
     <View style={styles.container}>
       <Image source={logo} style={styles.logo}/>
-      <Text style={styles.title}> Créer un Porsche ID Account </Text>
+      <Text style={styles.title}>Create an account 🏁 </Text>
 
       <Formik
         initialValues={{
-          email: 'a',
-          password: 'a',
-          company: 'a',
-          city: 'a'
+          email: '',
+          password: '',
+          company: '',
+          city: ''
         }}
         validateOnChange={false}
         validateOnBlur={false}
@@ -73,10 +77,11 @@ const Screen = ({ navigation }) => {
       >
       { props => (
         <>
+        
           <TextInput
             style={styles.input}
             textContentType='emailAddress'
-            placeholder='Porsche ID (adresse e-mail)'
+            placeholder='Porsche ID (Email)'
             value={props.values.email}
             onChangeText={v => props.setFieldValue('email', v)}
             />
@@ -86,7 +91,7 @@ const Screen = ({ navigation }) => {
           <TextInput
             style={styles.input}
             textContentType='password'
-            placeholder='Mot de passe'
+            placeholder='Password'
             secureTextEntry={true}
             value={props.values.password}
             onChangeText={v => props.setFieldValue('password', v)}
@@ -97,7 +102,7 @@ const Screen = ({ navigation }) => {
           <TextInput
             style={styles.input}
             textContentType='organizationName'
-            placeholder='Nom de la société'
+            placeholder='Dealer'
             value={props.values.company}
             onChangeText={v => props.setFieldValue('company', v)}
             />
@@ -107,27 +112,37 @@ const Screen = ({ navigation }) => {
           <TextInput
             style={styles.input}
             textContentType='addressCity'
-            placeholder='Ville'
+            placeholder='Adress'
             value={props.values.city}
             onChangeText={v => props.setFieldValue('city', v)}
+            />
+
+          <Separator spacing={12}/>
+
+          <TextInput
+            style={styles.input}
+            textContentType='country'
+            placeholder='Country'
+            value={props.values.country}
+            onChangeText={v => props.setFieldValue('country', v)}
             />
 
           <Separator spacing={45} />
 
           <TouchableOpacity
-            style={[styles.button, { backgroundColor: '#d5001c' }]}
+            style={[styles.button, { backgroundColor: '#d4001d', borderWidth: 1,borderColor:'#585858e0'}]}
             onPress={props.handleSubmit}
           >
-            <Text style={[styles.buttonText, { color: '#fff' }]}> >  Créer un compte Porsche ID </Text>
+            <Text style={[styles.buttonText, { color: '#fff' }]}>✔️ Create Porsche ID</Text>
           </TouchableOpacity>
 
           <Separator spacing={12} />
 
           <TouchableOpacity
-            style={[styles.button, { borderWidth: 1, borderColor: '#767676' }]}
+            style={[styles.button, {borderWidth: 1,borderColor:'#585858e0' }]}
             onPress={() => navigation.navigate('Login')}
           >
-            <Text style={styles.buttonText}> X  Annuler </Text>
+            <Text style={styles.buttonText}>❌ Cancel </Text>
           </TouchableOpacity>
         </>
       )}
