@@ -4,7 +4,8 @@ export const GET_GENERIC_MODELS = gql `
   {
     genericModels{
       id,
-      model
+      model,
+      imageURL
     }
   }`;
 

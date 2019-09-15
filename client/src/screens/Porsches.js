@@ -30,6 +30,7 @@ const Screen = ({ navigation }) => {
 				<>
 					<FlatList
 						data = { data.searchPorsches }
+            keyExtractor = { item => item.id }
 						renderItem = { ({ item: { id, model, imageURL }  }) => (
 							<TouchableOpacity
 								onPress={() => navigation.navigate('PorscheDetails', { id, model })}

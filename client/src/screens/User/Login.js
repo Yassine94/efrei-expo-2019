@@ -15,28 +15,25 @@ const styles = StyleSheet.create({
   },
   title: {
     fontFamily: 'Porsche Next',
-    fontSize: '1.625rem',
-    marginBottom: '1.125rem'
+    fontSize: 26,//'1.625rem',
+    marginBottom: 18, //'1.125rem'
   },
   input: {
     fontFamily: 'Porsche Next',
     alignSelf: 'stretch',
-    height: '3.125rem',
-    padding: '1.0625rem',
+    height: 50, //'3.125rem',
+    padding: 17,//'1.0625rem',
     borderWidth: 1,
     borderColor: '#c8cacb',
     color: '#000'
   },
   button: {
     alignSelf: 'stretch',
-    marginTop: '1.5rem',
-    padding: '0.75rem',
-    backgroundColor: '#d5001c'
+    padding: 12
   },
   buttonText: {
     fontFamily: 'Porsche Next Bold',
-    fontSize: '1.15rem',
-    color: '#fff'
+    fontSize: 18
   },
   logo: {
     width: 100,
@@ -48,6 +45,7 @@ const styles = StyleSheet.create({
 
 const Screen = ({ navigation }) => {
   const [loginUser, { loading, error, data }] = useMutation(LOGIN_USER);
+  const logo = require('../../images/logo.png');
 
   const login = async ({ email, password }) => {
     const { data: { loginUser: user } } = await loginUser({ variables : { email, password } });
@@ -57,7 +55,7 @@ const Screen = ({ navigation }) => {
 
   return(
     <View style={styles.container}>
-      <Image source={require('../../images/logo.png')} style={styles.logo}/>
+      <Image source={logo} style={styles.logo}/>
       <Text style={styles.title}> Bienvenue sur RN Porsche </Text>
 
       <Formik
@@ -89,11 +87,22 @@ const Screen = ({ navigation }) => {
             onChangeText={v => props.setFieldValue('password', v)}
             />
 
+          <Separator spacing='1.5rem' />
+
           <TouchableOpacity
-            style={styles.button}
+            style={[styles.button, { backgroundColor: '#d5001c' }]}
             onPress={props.handleSubmit}
           >
-            <Text style={styles.buttonText}> >  Se Connecter </Text>
+            <Text style={[styles.buttonText, { color: '#fff' }]}> >  Se Connecter </Text>
+          </TouchableOpacity>
+
+          <Separator spacing='0.75rem' />
+
+          <TouchableOpacity
+            style={[styles.button, { borderWidth: 1, borderColor: '#767676' }]}
+            onPress={() => navigation.navigate('Register')}
+          >
+            <Text style={styles.buttonText}> >  S'inscrire </Text>
           </TouchableOpacity>
         </>
       )}

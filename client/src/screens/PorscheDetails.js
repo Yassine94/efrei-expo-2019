@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet, Dimensions } from 'react-native';
 import Slider from '../components/slider';
 
+const S3_BUCKET_IMAGES_PORSCHE = 'https://efrei-expo-2019.s3.eu-west-3.amazonaws.com/Porsches';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -16,8 +17,8 @@ const Screen = ({ navigation }) => {
 		<View style={styles.container}>
       <Slider
         images={[
-          `${id}_0.jpg`,
-          `${id}_1.jpg`
+          `${S3_BUCKET_IMAGES_PORSCHE}/${id}_0.jpg`,
+          `${S3_BUCKET_IMAGES_PORSCHE}/${id}_1.jpg`
         ]}
       />
 

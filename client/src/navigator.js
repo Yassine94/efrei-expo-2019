@@ -24,11 +24,11 @@ const HomeStack = createStackNavigator({
 });
 
 const LoginStack = createSwitchNavigator({
-  LoginScreen,
-  RegisterScreen,
-  HomeStack
+  Login: LoginScreen,
+  Register: RegisterScreen,
+  Home: HomeStack
 },{
-  initialRouteName: 'LoginScreen',
+  initialRouteName: 'Register',
 });
 
 const TabNavigator = createBottomTabNavigator({
@@ -43,6 +43,6 @@ const TabNavigator = createBottomTabNavigator({
   }
 });
 
-const AppContainer = createAppContainer(LoginStack);
+const AppContainer = createAppContainer(HomeStack);
 
 export default AppContainer;

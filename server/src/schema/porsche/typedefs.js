@@ -28,6 +28,7 @@ const typeDefs = `
   type GenericModel {
     id: ID!
     model: String!
+    imageURL: String!
   }
 
   input PorscheInput {
