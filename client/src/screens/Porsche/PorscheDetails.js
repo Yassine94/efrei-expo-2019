@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, Dimensions } from 'react-native';
-import Slider from '../components/slider';
+import Slider from '../../components/slider';
 
 const S3_BUCKET_IMAGES_PORSCHE = 'https://efrei-expo-2019.s3.eu-west-3.amazonaws.com/Porsches';
 const styles = StyleSheet.create({

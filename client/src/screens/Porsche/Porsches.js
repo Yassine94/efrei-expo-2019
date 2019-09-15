@@ -1,5 +1,5 @@
 import React from 'react';
-import * as queries from '../apollo/queries';
+import * as queries from '../../apollo/queries';
 import { useQuery } from '@apollo/react-hooks';
 import { Dimensions, Text, FlatList, StyleSheet, View, Image, TouchableOpacity } from 'react-native';
 

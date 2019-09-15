@@ -16,20 +16,24 @@ const resolvers = {
       return await models.User.findOne({ where: { email, passwordHash } });
     },
     createUser: async (obj, args, ctx, info) => {
-      const id = uuid();
-      const { email, password, company, city } = args.data;
-      const passwordHash = crypto.createHash('md5').update(password).digest("hex");
+      try {
+        const id = uuid();
+        const { email, password, company, city } = args.data;
+        const passwordHash = crypto.createHash('md5').update(password).digest("hex");
 
-      const newUser = {
-        id,
-        email,
-        passwordHash,
-        company,
-        city,
-      };
-      await models.User.create(newUser);
+        const newUser = {
+          id,
+          email,
+          passwordHash,
+          company,
+          city,
+        };
+        await models.User.create(newUser);
 
-      return true;
+        return true;
+      } catch(error) {
+        return false;
+      }
     },
     editUser: async (obj, args, ctx, info) => {
       const { data: { email, password, company, city }, id } = args;

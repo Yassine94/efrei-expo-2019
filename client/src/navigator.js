@@ -1,10 +1,10 @@
 import React from 'react';
 import HomeScreen from './screens/Home';
-import ProfileScreen from './screens/Profile';
+import ProfileScreen from './screens/User/Profile';
 import LoginScreen from './screens/User/Login';
 import RegisterScreen from './screens/User/Register';
-import PorschesScreen from './screens/Porsches';
-import PorscheDetailsScreen from './screens/PorscheDetails';
+import PorschesScreen from './screens/Porsche/Porsches';
+import PorscheDetailsScreen from './screens/Porsche/PorscheDetails';
 import { createAppContainer, createSwitchNavigator } from "react-navigation";
 import { createStackNavigator } from 'react-navigation-stack';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
@@ -43,6 +43,6 @@ const TabNavigator = createBottomTabNavigator({
   }
 });
 
-const AppContainer = createAppContainer(HomeStack);
+const AppContainer = createAppContainer(LoginStack);
 
 export default AppContainer;

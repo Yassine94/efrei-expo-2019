@@ -15,14 +15,14 @@ const styles = StyleSheet.create({
   },
   title: {
     fontFamily: 'Porsche Next',
-    fontSize: 26,//'1.625rem',
-    marginBottom: 18, //'1.125rem'
+    fontSize: 26,
+    marginBottom: 18,
   },
   input: {
     fontFamily: 'Porsche Next',
     alignSelf: 'stretch',
-    height: 50, //'3.125rem',
-    padding: 17,//'1.0625rem',
+    height: 50,
+    padding: 17,
     borderWidth: 1,
     borderColor: '#c8cacb',
     color: '#000'
@@ -49,8 +49,10 @@ const Screen = ({ navigation }) => {
 
   const login = async ({ email, password }) => {
     const { data: { loginUser: user } } = await loginUser({ variables : { email, password } });
-    console.log(user);
 
+    if(user) {
+      navigation.navigate('Home', {user});
+    }
   }
 
   return(
@@ -60,12 +62,12 @@ const Screen = ({ navigation }) => {
 
       <Formik
         initialValues={{
-          email: 'dds1991@hotmail.fr',
-          password: 'a',
+          email: navigation.getParam('email') || 'dds1991@hotmail.fr',
+          password: navigation.getParam('password') || 'a',
         }}
         validateOnChange={false}
         validateOnBlur={false}
-        onSubmit={() => navigation.navigate('Home', {}) }
+        onSubmit={(values) => login(values)}
       >
       { props => (
         <>
@@ -87,7 +89,7 @@ const Screen = ({ navigation }) => {
             onChangeText={v => props.setFieldValue('password', v)}
             />
 
-          <Separator spacing='1.5rem' />
+          <Separator spacing={45} />
 
           <TouchableOpacity
             style={[styles.button, { backgroundColor: '#d5001c' }]}
@@ -96,7 +98,7 @@ const Screen = ({ navigation }) => {
             <Text style={[styles.buttonText, { color: '#fff' }]}> >  Se Connecter </Text>
           </TouchableOpacity>
 
-          <Separator spacing='0.75rem' />
+          <Separator spacing={12} />
 
           <TouchableOpacity
             style={[styles.button, { borderWidth: 1, borderColor: '#767676' }]}
