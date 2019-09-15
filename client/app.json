@@ -1,12 +1,13 @@
 {
   "name": "efrei-expo-2019",
-  "displayName": "efrei-expo-2019",
+  "displayName": "Porsche App",
   "expo": {
     "name": "efrei-expo-2019",
-    "slug": "expo-template-bare",
+    "slug": "expo-yass-dydy",
     "privacy": "unlisted",
     "sdkVersion": "34.0.0",
     "version": "1.0.0",
+    "owner": "Dylan&Yassine",
     "entryPoint": "node_modules/expo/AppEntry.js",
     "platforms": [
       "ios",
