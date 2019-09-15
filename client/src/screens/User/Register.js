@@ -69,7 +69,7 @@ const Screen = ({ navigation }) => {
   const logo = require('../../images/newlogo.png');
 
   const register = async ({email, password, company, city}) => {
-    const { data: { createUser } } = await registerUser({ variables: { data: { email, password, company, city, country } } });
+    const { data: { createUser } } = await registerUser({ variables: { data: { email, password, company, city,  } } });
 
     if(createUser) {
       navigation.navigate('Login', { email, password });
@@ -131,16 +131,6 @@ const Screen = ({ navigation }) => {
             placeholder='Adress'
             value={props.values.city}
             onChangeText={v => props.setFieldValue('city', v)}
-            />
-
-          <Separator spacing={12}/>
-
-          <TextInput
-            style={styles.input}
-            textContentType='country'
-            placeholder='Country'
-            value={props.values.country}
-            onChangeText={v => props.setFieldValue('country', v)}
             />
 
           <Separator spacing={45} />
