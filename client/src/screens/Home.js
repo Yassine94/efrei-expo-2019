@@ -3,6 +3,7 @@ import {useQuery} from '@apollo/react-hooks';
 import * as queries from '../apollo/queries';
 import { Dimensions, Text, FlatList, Image, TouchableOpacity, View, StyleSheet, ImageBackground} from 'react-native';
 
+const S3_BUCKET_IMAGES_GENERIC_MODELS = 'https://efrei-expo-2019.s3.eu-west-3.amazonaws.com/GenericModels';
 const styles = StyleSheet.create(
   {
     container: {
@@ -45,20 +46,22 @@ const {loading, error, data} = useQuery(queries.GET_GENERIC_MODELS);
           <FlatList
             numColumns = { 2 }
             data = { data.genericModels }
-            renderItem = { ({ item: { id, model } }) => (
-              <View style={ styles.tile }>
-                <ImageBackground source={require(`../images/genericModels/${id}.jpg`)} style={ styles.tileImage }>
-                  <TouchableOpacity
-                    onPress={() => navigation.navigate('Porsches', { id, model })}
-                    style={ styles.tileImage }
-                    activeOpacity={0.60}>
-                      <View style={ styles.tileFooter }>
-                        <Text style={ styles.tileText }> { model } </Text>
-                      </View>
+            renderItem = { ({ item: { id, model } }) => {
+              return(
+                <View style={ styles.tile }>
+                  <ImageBackground source={{ uri: `${S3_BUCKET_IMAGES_GENERIC_MODELS}/${id}.jpg` }} style={ styles.tileImage }>
+                    <TouchableOpacity
+                      onPress={() => navigation.navigate('Porsches', { id, model })}
+                      style={ styles.tileImage }
+                      activeOpacity={0.60}>
+                        <View style={ styles.tileFooter }>
+                          <Text style={ styles.tileText }> { model } </Text>
+                        </View>
                     </TouchableOpacity>
                   </ImageBackground>
                 </View>
-            )} />
+              );
+            }} />
         </>
       )}
     </View>

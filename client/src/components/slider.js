@@ -16,13 +16,19 @@ const Slider = ({ images: imagesToDisplay }) => {
   const [images, setImages] = useState(imagesToDisplay);
   const [index, setIndex] = useState(0);
 
-  setInterval( () => {
+  const refreshIntervalId = setInterval( () => {
     setIndex( (index+1) % images.length);
   }, 5000);
 
+  useEffect( () => {
+    return function cleanup() {
+      clearInterval(refreshIntervalId);
+    }
+  }, [])
+
   return (
       <View style={styles.slider}>
-        <Image style={styles.sliderImage} source={require(`../images/porsches/${images[index]}`)}></Image>
+        <Image style={styles.sliderImage} source={{ uri: images[index] }}></Image>
       </View>
   );
 }

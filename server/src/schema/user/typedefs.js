@@ -23,6 +23,7 @@ const typeDefs = `
 
   input UserInput {
     email: String!
+    password: String!
     company: String!
     city: String!
   }
