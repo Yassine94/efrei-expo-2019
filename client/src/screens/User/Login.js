@@ -79,7 +79,7 @@ const Screen = ({ navigation }) => {
             onChangeText={v => props.setFieldValue('email', v)}
             />
 
-          <Separator spacing='0.75rem' />
+          <Separator spacing={12} />
 
           <TextInput
             style={styles.input}

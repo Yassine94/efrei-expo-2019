@@ -4,6 +4,7 @@ import { Camera } from 'expo-camera';
 import * as Permissions from 'expo-permissions';
 import Separator  from '../../components/shared/Separator';
 
+const S3_BUCKET_IMAGES_PROFILE_PICTURE = 'https://efrei-expo-2019.s3.eu-west-3.amazonaws.com/Profiles/Pictures';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -63,22 +64,20 @@ const Screen = ({ navigation }) => {
   return(
     <View style={styles.container}>
       {cameraPermissionStatus === 'granted' && (
-        <Camera ref={cameraRef} style={{ flex: 1 }} type={Camera.Constants.Type.back}>
           <TouchableOpacity
             activeOpacity={0.5}
-            onPress={() => takePicture()}
+            onPress={() => navigation.navigate('Camera')}
             >
             <Image
               style={styles.profilPic}
-              source={{ uri: 'https://efrei-expo-2019.s3.eu-west-3.amazonaws.com/Profiles/Pictures/5735b600-d6a0-11e9-a1bb-61fb62e3c3a1.jpg' }}
+              source={{ uri: `${S3_BUCKET_IMAGES_PROFILE_PICTURE}/5735b600-d6a0-11e9-a1bb-61fb62e3c3a1.jpg` }}
             />
           </TouchableOpacity>
-        </Camera>
       )}
 
       <Image
         style={styles.profilPic}
-        source={{ uri: 'https://efrei-expo-2019.s3.eu-west-3.amazonaws.com/Profiles/Pictures/5735b600-d6a0-11e9-a1bb-61fb62e3c3a1.jpg' }}
+        source={{ uri: `${S3_BUCKET_IMAGES_PROFILE_PICTURE}/5735b600-d6a0-11e9-a1bb-61fb62e3c3a1.jpg` }}
       />
 
       <Separator spacing={25}/>

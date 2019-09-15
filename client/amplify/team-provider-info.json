@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "efreiexpo1-dev-20190915192733-authRole",
+            "UnauthRoleArn": "arn:aws:iam::580496557684:role/efreiexpo1-dev-20190915192733-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::580496557684:role/efreiexpo1-dev-20190915192733-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "efreiexpo1-dev-20190915192733-deployment",
+            "UnauthRoleName": "efreiexpo1-dev-20190915192733-unauthRole",
+            "StackName": "efreiexpo1-dev-20190915192733",
+            "StackId": "arn:aws:cloudformation:eu-west-2:580496557684:stack/efreiexpo1-dev-20190915192733/1b430780-d7de-11e9-87cb-0a216ef7b6d4"
+        }
+    }
+}

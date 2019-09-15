@@ -1,5 +1,6 @@
 import React from 'react';
 import HomeScreen from './screens/Home';
+import CameraScreen from './screens/Camera';
 import ProfileScreen from './screens/User/Profile';
 import LoginScreen from './screens/User/Login';
 import RegisterScreen from './screens/User/Register';
@@ -11,7 +12,8 @@ import { createBottomTabNavigator } from 'react-navigation-tabs';
 import { Ionicons } from '@expo/vector-icons';
 
 const UserStack = createStackNavigator({
-  Profile: ProfileScreen
+  Profile: ProfileScreen,
+  Camera: CameraScreen
 }, {
   initialRouteName: 'Profile',
   defaultNavigationOptions: {
@@ -47,7 +49,7 @@ const HomeNav = createBottomTabNavigator({
     }
   }
 }, {
-  initialRouteName: 'UserStack',
+  initialRouteName: 'PorscheStack',
   tabBarOptions: {
     activeTintColor: '#f584b8',
     inactiveTintColor: '#ffffff',
@@ -62,7 +64,7 @@ const LoginStack = createSwitchNavigator({
   Register: RegisterScreen,
   Home: HomeNav
 },{
-  initialRouteName: 'Home',
+  initialRouteName: 'Login',
 });
 
 const AppContainer = createAppContainer(LoginStack);
