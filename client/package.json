@@ -45,5 +45,11 @@
   "jest": {
     "preset": "react-native"
   },
-  "private": true
+  "expo": {
+    "name": "efrei-porsches",
+    "slug": "efrei-porsches",
+    "sdkVersion": "UNVERSIONED",
+    "privacy": "public"
+  },
+  "private": false
 }

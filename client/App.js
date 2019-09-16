@@ -6,7 +6,7 @@ import * as Font from 'expo-font';
 import RootNavigator from './src/navigator';
 
 const client = new ApolloClient({
-  uri: 'http://d1c04442.ngrok.io',
+  uri: 'https://efrei-porsches.herokuapp.com',
 });
 
 const App = () => {
