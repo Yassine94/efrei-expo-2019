@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "nodemon index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "set NODE_ENV=production&& node index.js",
+    "dev": "nodemon index.js"
   },
   "license": "MIT",
   "dependencies": {
