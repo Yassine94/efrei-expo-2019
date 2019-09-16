@@ -4,7 +4,8 @@
 RN Porsche allows you to buy and sell Porsches with a beautifull UI ( And awesome cars )
 
 ## Current Features
- - Login
+ - Login | Register
+ - Profile
  - 6 models of porsches implemented ( Macan, 911, 718, Taycan, Cayenne, Panamera)
  - Each of those 6 models have other models like 718 Spyder, 911 GT3 RS ...
  - All specific models has a details page
